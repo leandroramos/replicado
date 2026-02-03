@@ -225,9 +225,10 @@ Se você utiliza um desses métodos nos seus sistemas, atualize para o novo mét
 
 De forma opcional, se quiser fazer do jeito *bonitinho*, pode-se criar teste unitário, usando o phpunit. 
 Para isso, você precisa de um banco de dados sybase ou mssql que possa deletar as tabelas, 
-há quatro opções para você rodar os testes:
+há cinco opções para você rodar os testes:
 
 - Baixar o mssql ou sybase e instalá-los manualmente
+- Subir um container SQL Server Express 2022. Temos um [gist de exemplo usando Docker Compose](https://gist.github.com/leandroramos/6856fd8cbdb105cb15ebc96d5901c110).
 - Subir um container Sybase com https://github.com/uspdev/asedocker
 - Instalar o sybase com ansible https://github.com/fflch/ansible-role-sap-ase
 - Nós mantemos um servidor sybase de testes, se quiser, solicite as credenciais uspdev@usp.br
