@@ -27,3 +27,6 @@ sandbox/
 test*.php
 
 /docs/
+
+# ddev
+.ddev
